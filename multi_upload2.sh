@@ -65,7 +65,7 @@ echo "Files uploaded successfully."
 echo "Preparing to send Telegram notification..."
 
 GITHUB_OWNER="${GITHUB_OWNER:-xc112lg}"
-GITHUB_REPO="${GITHUB_REPO:-blossom_evolotion}"
+GITHUB_REPO="${GITHUB_REPO:-blossom_evolution}"
 RELEASE_TAG="$version"
 
 declare -a FILE_ENTRIES
