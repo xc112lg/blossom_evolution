@@ -167,6 +167,8 @@ $DOWNLOADS_SECTION
 <b>📝 Notes:</b>
 • NFC wont spawn on non NFC variant
 • Blur effect will only work for 3GB ram and up variant
+• Work with both core and basic gapps
+• Deleted Sandbox and additional fonts to save more space
 • Signed
 • Includes MIUI Camera & Lunari Dolby
 • June security patch
