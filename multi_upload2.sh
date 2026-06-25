@@ -31,7 +31,7 @@ else
     echo "Already authenticated with GitHub."
 fi
 
-version=${custom_version:-"Lunaris-AOSP-16.2-$(date '+%Y%m%d')"}
+version=${custom_version:-"EvolutionX-16.0-$(date '+%Y%m%d')"}
 
 if gh release view "$version" &> /dev/null; then
     echo "Deleting existing tag and releases for $version..."
