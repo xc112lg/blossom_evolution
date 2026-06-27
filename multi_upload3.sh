@@ -177,6 +177,7 @@ $DOWNLOADS_SECTION
 <b>❤️ Credits & Thanks:</b>
 • @HaiKitoo for trees
 • @fukiame for kernel
+• @Yohanyuan for audio fix
 • @astechpro20 for msg template
 • Yui Onanii, fukiame, @snnbyyds, <a href=\"http://t.me/Sushrut1101\">Sushrut</a>, xiaomi-blossom-dev contributors for base tree
 • Thanks to <a href=\"http://foss.crave.io\">crave.io</a> for server
