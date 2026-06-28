@@ -164,14 +164,19 @@ $DOWNLOADS_SECTION
 • NFC not working
 
 ━
-<b>📝 Notes:</b>
+<b>🐞 Fixes:</b>
 • NFC wont spawn on non NFC variant
-• Work with both core and basic gapps
+• Dolby and Audio 
+• Encryption
+
+━
+<b>📝 Notes:</b>
 • Deleted Sandbox and additional fonts to save more space
+• Work with both core and basic gapps
 • Signed
 • Includes MIUI Camera & Lunari Dolby
 • June security patch
-• Default Kernel Sashimi
+• Default Kernel Sashimi but disabled Erofs
 
 ━
 <b>❤️ Credits & Thanks:</b>
