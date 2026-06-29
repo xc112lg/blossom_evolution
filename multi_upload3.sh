@@ -175,7 +175,7 @@ $DOWNLOADS_SECTION
 • Signed
 • Includes MIUI Camera,Lunari Dolby,
 • June security patch
-• Default Kernel Sashimi but disabled Erofs
+• Default Kernel Sashimi,disabled Erofs
 
 ━
 <b>❤️ Credits & Thanks:</b>
@@ -185,7 +185,7 @@ $DOWNLOADS_SECTION
 • @astechpro20 for msg template
 • Yui Onanii, fukiame, @snnbyyds, <a href=\"http://t.me/Sushrut1101\">Sushrut</a>, xiaomi-blossom-dev contributors for base tree
 • Thanks to <a href=\"http://foss.crave.io\">crave.io</a> for server
-• Yohan Yuan for their help
+• Special Thanks to 0kaarun & Yohan Yuan for their help
 • Thanks to all other devs
 
 ━
