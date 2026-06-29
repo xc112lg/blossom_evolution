@@ -167,7 +167,6 @@ $DOWNLOADS_SECTION
 <b>🐞 Fixes:</b>
 • NFC wont spawn on non NFC variant
 • Dolby and Audio 
-• Encryption
 
 ━
 <b>📝 Notes:</b>
@@ -176,7 +175,7 @@ $DOWNLOADS_SECTION
 • Signed
 • Includes MIUI Camera & Lunari Dolby
 • June security patch
-• Default Kernel Sashimi but disabled Erofs
+• Default Kernel Sashimi but disabled Erofs so you can pick kernel on ofox on your own
 
 ━
 <b>❤️ Credits & Thanks:</b>
