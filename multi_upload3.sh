@@ -185,7 +185,7 @@ $DOWNLOADS_SECTION
 • @astechpro20 for msg template
 • Yui Onanii, fukiame, @snnbyyds, <a href=\"http://t.me/Sushrut1101\">Sushrut</a>, xiaomi-blossom-dev contributors for base tree
 • Thanks to <a href=\"http://foss.crave.io\">crave.io</a> for server
-• Special Thanks to 0kaarun & Yohan Yuan for their help
+• Yohan Yuan for their help
 • Thanks to all other devs
 
 ━
