@@ -173,9 +173,10 @@ $DOWNLOADS_SECTION
 • Deleted Sandbox and additional fonts to save more space
 • Work with both core and basic gapps
 • Signed
-• Includes MIUI Camera & Lunari Dolby
+• Includes MIUI Camera,Lunari Dolby, Revamped Radio and Via Browser
 • June security patch
-• Default Kernel Sashimi but disabled Erofs so you can pick kernel on ofox on your own
+• Default Kernel Sashimi but disabled Erofs so you can pick kernel on ofox on your own•
+• Kernel built on neutron clang
 
 ━
 <b>❤️ Credits & Thanks:</b>
