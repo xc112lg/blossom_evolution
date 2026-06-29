@@ -143,7 +143,7 @@ done
 
 DOWNLOADS_SECTION+="
 
-━
+
 <b>📲 <a href=\"https://telegra.ph/flashing-instruction-11-15\">Installation Guide</a></b>"
 
 
@@ -159,15 +159,15 @@ TELEGRAM_MESSAGE="<b>EvolutionX-16.0 | UNOFFICIAL📱</b>
 
 $DOWNLOADS_SECTION
 
-━
+
 <b>🐞 Issues:</b>
 • NFC not working
 
-━
+
 <b>🐞 Fixes:</b>
 • NFC wont spawn on non NFC variant
 • Dolby and Audio 
-━
+
 
 <b>📝 Notes:</b>
 • Deleted Sandbox and additional fonts to save more space
@@ -177,7 +177,7 @@ $DOWNLOADS_SECTION
 • June security patch
 • Default Kernel Sashimi,disabled Erofs
 
-━
+
 <b>❤️ Credits & Thanks:</b>
 • @HaiKitoo for trees
 • @fukiame for kernel
@@ -188,12 +188,12 @@ $DOWNLOADS_SECTION
 • Special Thanks to 0kaarun & Yohan Yuan for their help
 • Thanks to all other devs
 
-━
+
 <b>🌐 Stay Updated:</b>
 📢 @xc112lgblossomupdate
 📢 @xc112lgblossomupdate1
 
-━
+
 #blossom #UNOFFICIAL #Evolution-X #lunaridolby #Rom"
 
 # Send Telegram message with smart fallback
