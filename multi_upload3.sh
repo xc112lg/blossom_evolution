@@ -104,7 +104,7 @@ if [ -n "$TELEGRAPH_TOKEN" ]; then
 fi
 
 # Create Downloads section with LABELS ONLY (no filename shown)
-DOWNLOADS_SECTION="━━━━━━━━━━━━━━━━━━━
+DOWNLOADS_SECTION="
 <b>📥 Downloads:</b>"
 
 for file_entry in "${FILE_ENTRIES[@]}"; do
