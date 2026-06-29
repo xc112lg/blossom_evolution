@@ -176,7 +176,6 @@ $DOWNLOADS_SECTION
 • Includes MIUI Camera,Lunari Dolby,Revamped Radio and Via Browser
 • June security patch
 • Default Kernel Sashimi but disabled Erofs
-• Kernel built on neutron clang
 
 ━
 <b>❤️ Credits & Thanks:</b>
