@@ -173,7 +173,7 @@ $DOWNLOADS_SECTION
 • Deleted Sandbox and additional fonts to save more space
 • Work with both core and basic gapps
 • Signed
-• Includes MIUI Camera,Lunari Dolby,
+• Includes MIUI Camera,Lunari Dolby,Revamped,Via Browser
 • June security patch
 • Default Kernel Sashimi,disabled Erofs
 
