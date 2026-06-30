@@ -167,7 +167,7 @@ $DOWNLOADS_SECTION
 <b>🐞 Fixes:</b>
 • NFC wont spawn on non NFC variant
 • Dolby and Audio 
-
+• Data unencrypted so you change in recovery directly
 
 <b>📝 Notes:</b>
 • Deleted Sandbox and additional fonts to save more space
@@ -175,7 +175,7 @@ $DOWNLOADS_SECTION
 • Signed
 • Includes MIUI Camera,Lunari Dolby
 • June security patch
-• Default Kernel Sashimi,disabled Erofs
+• Default Kernel Sashimi
 
 
 <b>❤️ Credits & Thanks:</b>
