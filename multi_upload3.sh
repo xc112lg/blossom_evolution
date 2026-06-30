@@ -150,7 +150,7 @@ DOWNLOADS_SECTION+="
 # Create full Telegram message
 TELEGRAM_MESSAGE="<b>EvolutionX-16.0 | UNOFFICIAL📱</b>
 
-<b>Device:</b> Blossom
+<b>Device:</b>Blossom
 <b>👨‍💻 Builder:</b> <a href=\"http://t.me/xc112lg\">xc112lg</a>
 <b>🤖 Android Version:</b> 16 | QPR2
 <b>📅 Build Date:</b> $(date '+%d/%m/%y')
@@ -159,10 +159,8 @@ TELEGRAM_MESSAGE="<b>EvolutionX-16.0 | UNOFFICIAL📱</b>
 
 $DOWNLOADS_SECTION
 
-
 <b>🐞 Issues:</b>
 • NFC not working
-
 
 <b>🐞 Fixes:</b>
 • NFC wont spawn on non NFC variant
@@ -177,7 +175,6 @@ $DOWNLOADS_SECTION
 • June security patch
 • Default Kernel Sashimi
 
-
 <b>❤️ Credits & Thanks:</b>
 • @HaiKitoo for trees
 • @fukiame for kernel
@@ -185,14 +182,12 @@ $DOWNLOADS_SECTION
 • @astechpro20 for msg template
 • Yui Onanii, fukiame, @snnbyyds, <a href=\"http://t.me/Sushrut1101\">Sushrut</a>, xiaomi-blossom-dev contributors for base tree
 • Thanks to <a href=\"http://foss.crave.io\">crave.io</a> for server
-• Special Thanks to 0kaarun & Yohan Yuan for their help
+• 0kaarun & Yohan Yuan for their help
 • Thanks to all other devs
-
 
 <b>🌐 Stay Updated:</b>
 📢 @xc112lgblossomupdate
 📢 @xc112lgblossomupdate1
-
 
 #blossom #UNOFFICIAL #Evolution-X #lunaridolby #Rom"
 
