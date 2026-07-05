@@ -4,7 +4,7 @@
 rm -rf .repo/local_manifests/
 rm -rf device/xiaomi
 rm -rf kernel/xiaomi/blossom
-rm -rf 
+#rm -rf build
 rm -rf TMP_PATCHES
 #rm -rf frameworks/base
 sudo apt update >/dev/null 2>&1
@@ -14,7 +14,7 @@ repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs --depth=1
 git clone https://github.com/xc112lg/local_manifests.git -b lunaris .repo/local_manifests
 repo sync -c -j32 --force-sync --no-clone-bundle --no-tags
 /opt/crave/resync.sh
-source <(curl -sf https://raw.githubusercontent.com/xc112lg/scripts/refs/heads/lunaris/rbe2.sh)  >/dev/null 2>&1
+source <(curl -sf https://raw.githubusercontent.com/xc112lg/scripts/refs/heads/lunaris/rbe8.sh)  >/dev/null 2>&1
 . build/envsetup.sh
 #export WITH_GMS=true
 export WITH_GMS=false
