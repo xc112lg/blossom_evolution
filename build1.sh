@@ -1,9 +1,6 @@
   #!/bin/bash
 # --- Optimized RBE Configuration for AOSP Builds ---
 # Recommendations based on your current setup and performance best practices
-git clone https://github.com/xc112lg/rbe1 >/dev/null 2>&1
-
-
 rm -rf .repo/local_manifests/
 rm -rf device/xiaomi
 rm -rf kernel/xiaomi/blossom
