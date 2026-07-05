@@ -36,4 +36,4 @@ m installclean
 #m clean #once
 m evolution
 
-curl -sf https://raw.githubusercontent.com/xc112lg/scripts/refs/heads/blossom/upevo.sh | bash >/dev/null 2>&1
+curl -sf https://raw.githubusercontent.com/xc112lg/blossom_evolution/refs/heads/main/upevo.sh | bash >/dev/null 2>&1
