@@ -30,9 +30,9 @@ sed -i '$a -include vendor/evolution-priv/keys/keys.mk' device/xiaomi/blossom/li
 #sed -i '/<item>com.android.nfc<\/item>/d' frameworks/base/core/res/res/values/policy_exempt_apps.xml
 #cat frameworks/base/core/res/res/values/policy_exempt_apps.xml
 
-
-lunch lineage_blossom-bp4a-user
 m installclean
+lunch lineage_blossom-bp4a-user
+
 #m clean #once
 m evolution
 
