@@ -10,7 +10,7 @@ elif [ -f ../.env ]; then
 else
     echo "⚠ .env file not found"
 fi
-
+git config --global url."https://${GH_TOKEN}:x-oauth-basic@github.com/".insteadOf "https://github.com/"
 rm -rf .repo/local_manifests/
 rm -rf device/xiaomi
 rm -rf kernel/xiaomi/blossom
