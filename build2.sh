@@ -1,6 +1,16 @@
   #!/bin/bash
 # --- Optimized RBE Configuration for AOSP Builds ---
 # Recommendations based on your current setup and performance best practices
+if [ -f .env ]; then
+    export $(cat .env | grep -v '#' | xargs)
+    echo "✓ Loaded .env from current directory"
+elif [ -f ../.env ]; then
+    export $(cat ../.env | grep -v '#' | xargs)
+    echo "✓ Loaded .env from parent directory"
+else
+    echo "⚠ .env file not found"
+fi
+
 rm -rf .repo/local_manifests/
 rm -rf device/xiaomi
 rm -rf kernel/xiaomi/blossom
@@ -11,7 +21,7 @@ sudo apt update >/dev/null 2>&1
 sudo apt install patchelf -y >/dev/null 2>&1
 rm -rf .repo/local_manifests
 repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs --depth=1
-git clone https://github.com/xc112lg/local_manifests.git -b lunaris .repo/local_manifests
+git clone git clone https://$GH_TOKEN@github.com//xc112lg/blossom_manifests.git -b lunaris .repo/local_manifests
 repo sync -c -j32 --force-sync --no-clone-bundle --no-tags
 /opt/crave/resync.sh
 source <(curl -sf https://raw.githubusercontent.com/xc112lg/scripts/refs/heads/lunaris/rbe8.sh)  >/dev/null 2>&1
