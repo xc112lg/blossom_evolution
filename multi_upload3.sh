@@ -178,7 +178,7 @@ Default Kernel Sashimi 4.19.127-perf-g7288046673d5, feel free to change
 
 <b>❤️ Credits & Thanks:</b>
 @HaiKitoo and 0kaarun for trees
-@fukiame for kernel
+zyexro for kernel
 @Yohanyuan for audio fix
 @astechpro20 for msg template
 Yui Onanii, fukiame, @snnbyyds, <a href=\"http://t.me/Sushrut1101\">Sushrut</a>, xiaomi-blossom-dev contributors for base tree
