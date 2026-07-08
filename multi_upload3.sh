@@ -168,12 +168,13 @@ NFC wont spawn on non NFC variant
 <b>📝 Notes:</b>
 Data unencrypted
 Deleted additional fonts to save more space
-Reintroduce Sandbox cause some need to hide apps from wife
+Debloated
+Reintroduce Sandbox cause someone need to hide apps from wife
 Work with both core and basic gapps
 Signed
 Includes MIUI Camera,Lunari Dolby
 July security patch
-Default Kernel Sashimi
+Default Kernel Sashimi 4.19.127-perf-g7288046673d5, feel free to change
 
 <b>❤️ Credits & Thanks:</b>
 @HaiKitoo and 0kaarun for trees
