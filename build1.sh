@@ -40,7 +40,11 @@ export TARGET_INCLUDE_REVAMPED=true
 export TARGET_INCLUDE_BCR=false
 sed -i '$a -include vendor/evolution-priv/keys/keys.mk' device/xiaomi/blossom/lineage_blossom.mk
 sed -i '\|vendor/extras/prebuilt/product/fonts,\$(TARGET_COPY_OUT_PRODUCT)/fonts|d' vendor/extras/evolution.mk
-sed -i '/prebuilt_etc[[:space:]]*{/{N; /name:[[:space:]]*"fonts_customization_emoji_\(ios\|samsung\|facebook\|swiftui\)\.xml"/{N;N;N;d}}' vendor/extras/prebuilt/product/etc/Android.bp
+sed -i '/<string-array name="emoji_style_entries">/,/<\/string-array>/{/emoji_style_ios\|emoji_style_samsung\|emoji_style_swiftui\|emoji_style_facebook/d}' packages/apps/Evolver/res/values/evolution_arrays.xml
+
+# Trim the values array (property values) — must stay in sync with entries
+sed -i '/<string-array name="emoji_style_values">/,/<\/string-array>/{/<item>ios<\/item>\|<item>samsung<\/item>\|<item>swiftui<\/item>\|<item>facebook<\/item>/d}' packages/apps/Evolver/res/values/evolution_arrays.xml
+sed -i '/fonts_customization_emoji_\(ios\|samsung\|swiftui\|facebook\)\.xml/d' vendor/extras/evolution.mk
 #sed -i '/<item>com.android.nfc<\/item>/d' frameworks/base/core/res/res/values/policy_exempt_apps.xml
 #cat frameworks/base/core/res/res/values/policy_exempt_apps.xml
 
