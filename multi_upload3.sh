@@ -164,6 +164,7 @@ NFC not working
 
 <b>🐞 Fixes:</b>
 NFC wont spawn on non NFC variant
+Remove font showing up on setting
 
 <b>📝 Notes:</b>
 Deleted additional fonts to save more space
