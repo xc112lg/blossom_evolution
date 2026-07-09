@@ -65,7 +65,7 @@ echo "Files uploaded successfully."
 echo "Preparing to send Telegram notification..."
 
 RELEASE_TAG="$version"
-
+GITHUB_REPO="${GITHUB_REPO:-blossom_evolution}"
 declare -a FILE_ENTRIES
 
 for filename in "${filenames[@]}"; do
