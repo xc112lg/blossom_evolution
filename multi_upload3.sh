@@ -166,7 +166,6 @@ NFC not working
 NFC wont spawn on non NFC variant
 
 <b>📝 Notes:</b>
-Data unencrypted
 Deleted additional fonts to save more space
 Debloated
 Reintroduce Sandbox cause someone need to hide apps from wife
