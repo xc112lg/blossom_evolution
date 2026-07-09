@@ -37,8 +37,10 @@ export SELINUX_IGNORE_NEVERALLOWS=true
 export TARGET_USES_PICO_GAPPS=true
 export TARGET_INCLUDE_VIA=true
 export TARGET_INCLUDE_REVAMPED=true
+export TARGET_INCLUDE_BCR=false
 sed -i '$a -include vendor/evolution-priv/keys/keys.mk' device/xiaomi/blossom/lineage_blossom.mk
 sed -i '\|vendor/extras/prebuilt/product/fonts,\$(TARGET_COPY_OUT_PRODUCT)/fonts|d' vendor/extras/evolution.mk
+sed -i '/prebuilt_etc[[:space:]]*{/{N; /name:[[:space:]]*"fonts_customization_emoji_\(ios\|samsung\|facebook\|swiftui\)\.xml"/{N;N;N;d}}' vendor/extras/prebuilt/product/etc/Android.bp
 #sed -i '/<item>com.android.nfc<\/item>/d' frameworks/base/core/res/res/values/policy_exempt_apps.xml
 #cat frameworks/base/core/res/res/values/policy_exempt_apps.xml
 
