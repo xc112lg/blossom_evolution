@@ -14,12 +14,13 @@ git config --global url."https://${GH_TOKEN}:x-oauth-basic@github.com/".insteadO
 rm -rf .repo/local_manifests/
 rm -rf device/xiaomi
 rm -rf kernel/xiaomi/blossom
+
 #rm -rf build
 rm -rf TMP_PATCHES
 #rm -rf frameworks/base
 sudo apt update >/dev/null 2>&1
 sudo apt install patchelf -y >/dev/null 2>&1
-rm -rf .repo/local_manifests
+rm -rf .repo/local_manifests packages/apps/Evolver vendor/extras
 repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs --depth=1
 git clone https://$GH_TOKEN@github.com/xc112lg/blossom_manifest.git -b main .repo/local_manifests
 repo sync -c -j32 --force-sync --no-clone-bundle --no-tags
