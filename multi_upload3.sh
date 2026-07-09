@@ -173,7 +173,7 @@ Work with both core and basic gapps
 Signed
 Includes MIUI Camera,Lunari Dolby
 July security patch
-Default Kernel Sashimi 4.19.127-perf-g7288046673d5, feel free to change
+Default Kernel Sashimi 4.19.127-perf
 
 <b>❤️ Credits & Thanks:</b>
 @HaiKitoo and 0kaarun for trees
