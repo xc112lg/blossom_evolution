@@ -21,6 +21,7 @@ rm -rf TMP_PATCHES
 sudo apt update >/dev/null 2>&1
 sudo apt install patchelf -y >/dev/null 2>&1
 rm -rf .repo/local_manifests packages/apps/Evolver vendor/extras
+#repo init -u https://github.com/accupara/los22.git -b lineage-22.1
 repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs --depth=1
 git clone https://$GH_TOKEN@github.com/xc112lg/blossom_manifest.git -b main .repo/local_manifests
 repo sync -c -j32 --force-sync --no-clone-bundle --no-tags
